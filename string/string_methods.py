@@ -38,5 +38,23 @@ print("Is the string alphabetic? ", my_string.isalpha())
 # check if the string is numeric
 print("Is the string numeric? ", my_string.isnumeric())
 
+# swap case of the string
+print("Swap case:", my_string.swapcase())
+
+# strip whitespace from the string
+print("Strip whitespace:", my_string.strip())
+
+# lstrip
+print("Left strip whitespace:", my_string.lstrip())
+
+# rstrip
+print("Right strip whitespace:", my_string.rstrip())
+
+# check if the string is a title
+print("Is the string a title? ", my_string.istitle())
+
+# check if the string is a digit
+print("Is the string a digit? ", my_string.isdigit())
+
 
 
