@@ -7,3 +7,4 @@ for index, num in enumerate(nums):
     if diff in num_map:
         print(diff, num)  
     num_map[num] = index
+

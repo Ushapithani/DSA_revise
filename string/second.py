@@ -1,0 +1,33 @@
+# find the second highest elemnet in the list without using sort method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# let us consider a string s == 

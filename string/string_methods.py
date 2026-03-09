@@ -56,5 +56,8 @@ print("Is the string a title? ", my_string.istitle())
 # check if the string is a digit
 print("Is the string a digit? ", my_string.isdigit())
 
+# index
+print("Index of 'o':", my_string.index("o"))
+
 
 
