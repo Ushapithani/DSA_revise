@@ -45,7 +45,7 @@ for i in range(n):
     row = input().split()
     matrix.append(row)
 
-# Rotate 180 degrees
+# Rotate 180 degrees 
 rotated = []
 for row in range(n-1, -1, -1):       
     new_row = []
