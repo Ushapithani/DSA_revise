@@ -1,10 +1,17 @@
-n = int(input())
-matrix = []
-for i in range(n):
-    row = input().split()
-    matrix.append(row)
-for row in range(n):
-    for col in range (n):
-        matrix[row], matrix[col] = matrix[col],matrix[row]
-print(matrix) 
+rows = int(input("Enter number of rows: "))
+cols = int(input("Enter number of columns: "))
 
+matrix = []
+for i in range(rows):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+
+# Transpose
+transpose = [[0] * rows for _ in range(cols)]
+for i in range(rows):
+    for j in range(cols):
+        transpose[j][i] = matrix[i][j]
+
+print("Transpose of the matrix:")
+for row in transpose:
+    print(row)

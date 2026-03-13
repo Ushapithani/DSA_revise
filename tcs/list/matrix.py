@@ -1,3 +1,6 @@
+'''90 degress  trans+revsre wows
+180 reverse rows +reverse colums 
+270 tranpose + reverse colums'''
 ''' 
 
 Input:
@@ -11,7 +14,7 @@ Output:
 8 5 2
 9 6 3
 '''
-# rotate matrix by 90 degrees => rows
+# rotate matrix by 90 degrees => transpose +reverse rows 
 n = int(input())
 matrix = []
 for i in range(n):
@@ -77,11 +80,11 @@ for i in range(n):
     row = input().split()
     matrix.append(row)
 
-# Rotate 270 degrees clockwise (90 counter-clockwise)
+# Rotate 270 degrees clockwise => transpose + reverse colums
 rotated = []
-for col in range(n-1, -1, -1):       # go from last column to first
+for col in range(n-1, -1, -1):       
     new_row = []
-    for row in range(n):             #
+    for row in range(n):             
         new_row.append(matrix[row][col])
     rotated.append(new_row)
 
